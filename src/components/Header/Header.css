@@ -25,9 +25,9 @@
   text-align: center;
   display: flex;
   padding: 0px 50px;
-  color: #808080;
+  color: #c0c0c0;
   border-radius: 6px;
-  border: 1px solid #808080;
+  border: 1px solid #c0c0c0;
 }
 
 .header__search > input {
@@ -35,7 +35,8 @@
   border: none;
   text-align: center;
   min-width: 30vw;
-  color: #808080;
+  color: #fff;
+  text-transform: capitalize;
 }
 
 .header__right {

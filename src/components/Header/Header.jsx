@@ -5,7 +5,7 @@ import { AccessTime, HelpOutline, Search } from "@material-ui/icons";
 
 function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <div className="header__left">
         <Avatar className="header__avatar" alt="{user?.displayName}" src="" />
         <AccessTime />
@@ -17,7 +17,7 @@ function Header() {
       <div className="header__right">
         <HelpOutline />
       </div>
-    </div>
+    </header>
   );
 }
 
