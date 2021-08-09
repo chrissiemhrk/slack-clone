@@ -20,3 +20,9 @@ This project is a slack clone that was built by following [this tutorial by clev
 `yarn install`
 3. Start the server
 `yarn start`
+
+## Contact
+
+Chrissie Muhorakeye - [@chrissiemhrk](https://twitter.com/chrissiemhrk) - <a href="mailto:chrissiemhrk@gmail.com">chrissiemhrk@gmail.com</a>
+
+Project link - https://slack-clone-2c98a.web.app
