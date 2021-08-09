@@ -2,6 +2,7 @@ import { InfoOutlined, StarBorderOutlined } from "@material-ui/icons";
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import ChatInput from "../../components/ChatInput/ChatInput";
 import Message from "../../components/Message/Message";
 import db from "../../firebase";
 import Layout from "../../Layout/Layout";
@@ -52,6 +53,9 @@ function Chat() {
               userImage={userImage}
             />
           ))}
+        </div>
+        <div className="chat__input">
+          <ChatInput channelName={channelDetails?.name} channelId={channelId} />
         </div>
       </div>
     </Layout>
